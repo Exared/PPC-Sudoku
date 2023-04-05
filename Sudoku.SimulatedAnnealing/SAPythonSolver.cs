@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Sudoku.Demo
 {
-	public class EmptyPythonSolver : PythonSolverBase
+	public class SAPythonSolver : PythonSolverBase
 
 	{
 		public override Shared.SudokuGrid Solve(Shared.SudokuGrid s)
