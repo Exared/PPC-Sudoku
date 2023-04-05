@@ -65,7 +65,7 @@ namespace Sudoku.Demo {
         /// </summary>
         internal static string EmptyPythonSolver_py {
             get {
-                return ResourceManager.GetString("EmptyPythonSolver.py", resourceCulture);
+                return ResourceManager.GetString("SAPythonSolver.py", resourceCulture);
             }
         }
     }
