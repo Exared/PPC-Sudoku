@@ -2,7 +2,7 @@
 
 namespace Sudoku.Demo
 {
-	public class EmptyDotNetSolver : ISudokuSolver
+	public class SADotNetSolver : ISudokuSolver
 	{
 		public SudokuGrid Solve(SudokuGrid s)
 		{
