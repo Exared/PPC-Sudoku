@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sudoku.Demo {
+namespace Sudoku.SimulatedAnnealing {
     using System;
     
     
@@ -63,7 +63,7 @@ namespace Sudoku.Demo {
         /// <summary>
         ///   Recherche une chaîne localisée semblable à .
         /// </summary>
-        internal static string EmptyPythonSolver_py {
+        internal static string SAPythonSolver_py {
             get {
                 return ResourceManager.GetString("SAPythonSolver.py", resourceCulture);
             }

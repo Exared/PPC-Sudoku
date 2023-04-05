@@ -3,11 +3,10 @@ using Sudoku.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sudoku.Demo
+namespace Sudoku.SimulatedAnnealing
 {
 	public class SAPythonSolver : PythonSolverBase
 
@@ -27,13 +26,10 @@ namespace Sudoku.Demo
 
 				// create a Python variable "instance"
 				scope.Set("instance", pyCells);
-
-				//this.AddNumpyConverterScript(scope);
 				
 				// run the Python script
-				string code = Resource1.EmptyPythonSolver_py;
+				string code = Resource1.SAPythonSolver_py;
 				scope.Exec(code);
-
 				
 				//Retrieve solved Sudoku variable
 				var result = scope.Get("r");

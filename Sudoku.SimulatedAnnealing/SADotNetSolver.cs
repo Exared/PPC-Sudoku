@@ -1,6 +1,6 @@
 ﻿using Sudoku.Shared;
 
-namespace Sudoku.Demo
+namespace Sudoku.SimulatedAnnealing
 {
 	public class SADotNetSolver : ISudokuSolver
 	{

@@ -8,3 +8,13 @@
 #           (9,0,0,0,6,5,0,0,0),
 #           (0,4,0,9,7,0,0,0,0))
 r=instance
+
+#start = default_timer()
+if(solveSudoku(instance)):
+	#print_grid(instance)
+	r=instance
+else:
+	print ("Aucune solution trouvée")
+
+#execution = default_timer() - start
+#print("Le temps de résolution est de : ", execution, " seconds as a floating point value")
